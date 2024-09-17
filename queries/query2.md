@@ -38,7 +38,6 @@ ORDER BY name;
 ```
 
 Output should be:
-```
 | id | line_item_id | name | quantity | subtotal | charge_id | billable_metric_id | billable_metric_name | tiers | updated_at |
 |---|---|---|---|---|---|---|---|---|---|
 | 28076867-3ff1-506b-92c9-8db470357a7c | b733bf37-a38f-4417-85a3-e33d86103a70 | Storage GB-Hours (us-east-1) | 6347.25 | 6347.25 | ac29f9fd-2279-4909-864d-96b31ffa40 | 53427126-db33-4db1-b2a5-ad1f-0e7000298 | Storage GB-Hours (us-east-1) | [] | 4/2/24 16:04 |
@@ -51,6 +50,6 @@ Output should be:
 | 7b3adfe6-d117-5695-9803-4639e9b1bef | 69b65346-7a9e-479f-a9b2-6c6fae0f697f | CPU hours (m5.16xlarge) | 68 | 238 | 7f88d537-aa42-4aca-ae99-793ab87d2819 | 624e835-5d70-4f01-a9e6-61cdd96fd549 | CPU hours (m5.16xlarge) | [] | 4/2/24 16:04 |
 | a745cf19-c70a-5ce8-ae71-df5d386a71cb | b733bf37-a38f-4417-85a3-e33d86103a70 | Storage GB-Hours (us-east-2) | 18430 | 2027.3 | 101ac02c-86b0-4462-97f-9927bd4a14c | 6cbb610b-ffe0-451-90e8-573b9344d0a8 | Storage GB-Hours (us-east-2) | [] | 4/2/24 16:04 |
 | 2f48aeeb-a747-557e-be94-38679527c4f | 69b65346-7a9e-479f-a9b2-6c6fae0f697f | CPU hours (m5.4xlarge) | 42 | 92.4 | 609998ae-f5b0-460f-9a7a-410b7356c87 | 256fa5bb-c9d3-4397-a883-9784d011100 | CPU hours (m5.4xlarge) | [] | 4/2/24 16:04 |
-```
+
 
 _Note: The instructions asked to include `unit_price` in the output. However, `unit_price` was not available in the provided `sub_line_item.csv` file (nor in any of the sample egress datasets provided), despite being listed as a column in the [`line_item` schema](https://docs.metronome.com/developer-resources/export-metronome-data/#line_item)._
