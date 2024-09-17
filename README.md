@@ -1,7 +1,7 @@
 # Metronome Query Egress Project
 This project includes queries and descriptions of how to produce customer data reports using the [Metronome Data Export](https://docs.metronome.com/developer-resources/export-metronome-data/).
 
-The original sample egress data provided in available in /sample-egress-data, and there is a subdirectory and corresponding file for the query tasks.
+The original sample egress data provided in available in [/sample-egress-data](/sample-egress-data/), and there is a subdirectory and corresponding file for the query tasks.
 
 ## Approach to project
 - My first attempt to complete the assingnment involved writing a Python script to extract and combine the data from the csv files. However, it occurred to me that this would not accomplish the goal of demonstrating basic SQL knowledge.
