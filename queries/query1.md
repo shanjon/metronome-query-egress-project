@@ -4,6 +4,8 @@ For Task 1, the data required was available in the Events table (`events.csv`). 
 
 In addition, the number of images (`num_image`) and image size (`image_size`) was stored as a JSON within the `properties` column. To read/manipulate this data, I would use the JSON_EXTRACT() function.
 
+The query results are then grouped and ordered by `image_size` for readability.
+
 The entire query is below.
 
 
