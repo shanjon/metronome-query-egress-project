@@ -39,8 +39,6 @@ ORDER BY name;
 
 Output should be:
 ```
-Here's the data converted into a markdown table:
-
 | id | line_item_id | name | quantity | subtotal | charge_id | billable_metric_id | billable_metric_name | tiers | updated_at |
 |---|---|---|---|---|---|---|---|---|---|
 | 28076867-3ff1-506b-92c9-8db470357a7c | b733bf37-a38f-4417-85a3-e33d86103a70 | Storage GB-Hours (us-east-1) | 6347.25 | 6347.25 | ac29f9fd-2279-4909-864d-96b31ffa40 | 53427126-db33-4db1-b2a5-ad1f-0e7000298 | Storage GB-Hours (us-east-1) | [] | 4/2/24 16:04 |
